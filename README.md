@@ -1,3 +1,10 @@
+# Heroes_hub
+Projet React pour créer une application de jeu de rôle.
+N'oubliez pas de créer votre propre branche avec votre nom
+
+React project to create a role-playing application.
+Don't forget to create your own branch with your name
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -6,7 +13,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
-### `npm start`
+### `npm run start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.

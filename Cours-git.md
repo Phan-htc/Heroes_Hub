@@ -28,6 +28,6 @@ Attention: la fusion d'une branche se fait uniquement lorsque le développement 
 
 - git status (s'assurer que HEAD est sur la branche recevant le merge)
 - git fetch ( pull les derniers commits distants)
-- git merge
+- git merge nom_de_la_branche
 
 Attention: Si plusieurs personnes modifie la meme fonctionnalité et effectue un merge, il y aura un conflit et il faudra choisir les morceaux de code qui doivent figurer sur la version final.

@@ -5,7 +5,7 @@ import Connexion from "./Pages/Connexion"
 
 const App = () => {
   return (
-    <div className='bg-black'>
+    <div>
       <div className="flex flex-row justify-center text-5xl bg-black">
         <div>
           <h1 className='text-white m-2'>Hero</h1>

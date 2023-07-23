@@ -6,7 +6,9 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'hub-logo': '#ff9000'
+        'hub-logo': '#ff9000',
+        'footer-color': '#292929',
+        'header-bg' : '#0e0e0e'
       }
     },
   },

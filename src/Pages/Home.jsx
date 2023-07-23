@@ -1,17 +1,30 @@
 import React from 'react';
-import Menu from '../Components/Menu';
+// import de from '../Components/de';
 
+// Test de la fonction de génération de dé, a tout envoyé vers le composant dé et l'appeler lorsqu'un joueur est connecté et qu'il est en partie.
+// Probleme avec la fonction math
 const Home = () => {
+  let resultat;
+  let criticité
+  function lancé(){
+      resultat.Math.random(8);
+  }
+      criticité = (lancé < 1 && lancé > 8 ? resultat : lancé === 1 ? "Tu as fais un échec critique" : lancé ===8 ? "Tu as fais une réussite critique" : resultat);
+      
     return (   
       <div>
-        <div className="flex flex-row justify-center text-5xl bg-black">
-            <div>
-                <h1 className='text-white m-2'>Hero</h1>
-            </div>
-        <h1 className='border-solid rounded px-1 my-2 bg-hub-logo text-black'>HUB</h1>
+        <de/>
+        <p className='text-white'>hello je suis bob</p>
+        <div>
+            <p className='text-white'>Ton lancer de dé a généré :{resultat}</p>
+            
+            <button onClick={lancé} className='text-white border-2'>
+                lancé de dé
+            </button>
+        </div>
       </div>
-      <Menu/>
-      </div>
+
+      
     );
 };
 

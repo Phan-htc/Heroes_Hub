@@ -21,6 +21,9 @@ const Home = () => {
             <button onClick={lancé} className='text-white border-2'>
                 lancé de dé
             </button>
+            <div>
+              toto
+            </div>
         </div>
       </div>
 
